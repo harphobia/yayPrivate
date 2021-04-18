@@ -12,6 +12,6 @@
 4. node complete.js
 
 # Info
-complete = autolike,autofollow (tanpa ninggalin jejak)
-viewtimeline = untuk caper. (ninggalin jejak)
-unfollownotfollback = untuk unfollow yang gak follback
+1. complete = autolike,autofollow (tanpa ninggalin jejak)
+2. viewtimeline = untuk caper. (ninggalin jejak)
+3. unfollownotfollback = untuk unfollow yang gak follback
