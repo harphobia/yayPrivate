@@ -9,7 +9,7 @@
 1. git clone https://github.com/harphobia/yayPrivate.git
 2. npm install
 3. isi email & password di akun.json
-4. node complete.js
+4. node index.js
 
 # Info
 1. complete = autolike,autofollow (tanpa ninggalin jejak)
