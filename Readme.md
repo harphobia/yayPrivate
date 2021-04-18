@@ -2,7 +2,7 @@
 
     bot automate untuk social media yay
 
-#Prep
+# Prep
 1.Nodejs
 
 # How to  use
