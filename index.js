@@ -17,7 +17,7 @@ function getTime() {
         break;
     case 1:
         console.log(`[${getTime()}] Cron berjalan Setiap 5 menit`)
-        cron.schedule('*/1 * * * *',()=>require('./viewTimeline'))
+        cron.schedule('*/5 * * * *',()=>require('./viewTimeline'))
         break;
     case 2:
         console.log(`[${getTime()}] Cron berjalan Setiap jam **:00`)
