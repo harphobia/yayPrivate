@@ -32,7 +32,12 @@ const delay = () =>
       nextId = last_follow_id;
       for (let i in users) {
         const { id, followed_by } = users[i];
-        console.log(id, followed_by);
+        if(!followed_by){
+          const unfollow = await yay.unfollowUser(access_token,id)
+          if(unfollow.result == "success"){
+            console.log(`[${getTime()}] [${id}] Unfollowed`)
+          }
+        }
         await delay();
       }
     }
@@ -50,7 +55,12 @@ const delay = () =>
           nextId = last_follow_id;
           for (let i in users) {
             const { id, followed_by } = users[i];
-            console.log("next", id, followed_by);
+            if(!followed_by){
+              const unfollow = await yay.unfollowUser(access_token,id)
+              if(unfollow.result == "success"){
+                console.log(`[${getTime()}] [${id}] Unfollowed`)
+              }
+            }
             await delay();
           }
         }
