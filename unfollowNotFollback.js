@@ -55,7 +55,7 @@ const delay = () =>
           nextId = last_follow_id;
           for (let i in users) {
             const { id, followed_by } = users[i];
-            if(!followed_by){
+            if(followed_by==false){
               const unfollow = await yay.unfollowUser(access_token,id)
               if(unfollow.result == "success"){
                 console.log(`[${getTime()}] [${id}] Unfollowed`)
